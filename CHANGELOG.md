@@ -2,6 +2,30 @@
 
 All notable changes to Linux Game Bench will be documented here.
 
+## 2026-03-02
+
+### Added
+- **Game Landing Pages** - Each game now has its own page (`/game/{id}`) with stats, top GPUs, top contributors, and benchmark table
+- **GPU/CPU Landing Pages** - Dedicated pages for each GPU and CPU with game performance cards and affiliate links
+- **Trending Feed** - Recently uploaded benchmarks scroll across the homepage with game images and Mesa/NVIDIA driver badges
+- **Hero Section** - Welcome banner on homepage for new visitors (dismissible)
+- **Share Buttons** - Share benchmarks on Reddit, X, or copy link directly from detail view
+- **Amazon Affiliate Links** - Cart icon next to GPU/CPU names for quick hardware shopping
+- **Auto-Premium Badges** - Earn Bronze (25 benchmarks/5 games), Silver (100/15), Gold (250/25) through activity
+- **Badge Progress** - See your progress toward the next badge in Account Settings and your profile
+- **Ko-fi Support Link** - Footer link on all pages to support the project
+- **Dynamic Sitemap** - 170+ URLs for better search engine indexing (games, hardware, profiles)
+
+### Changed
+- Game names in benchmark table now link to game landing pages
+- GPU/CPU names in detail view now link to hardware landing pages
+- Screenshot limit label changed from "Premium: 5" to "Bronze: 5"
+- OC tooltip now uses fixed positioning (no more clipping)
+
+### Fixed
+- Double OC tooltip (native + custom) removed
+- Screenshot upload limit increased to 6MB (Nginx: 7MB)
+
 ## 2026-02-03
 
 ### Added
